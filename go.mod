@@ -5,13 +5,12 @@ replace github.com/ethereum/go-ethereum => ../ronin
 go 1.17
 
 require (
-	github.com/axieinfinity/bridge-core v0.1.2-0.20221020085737-bad6e7cb2c24
+	github.com/axieinfinity/bridge-core v0.1.2-0.20221031095024-7319520259bf
 	github.com/go-gormigrate/gormigrate/v2 v2.0.2
-	gorm.io/gorm v1.24.1-0.20221019064659-5dd2bb482755
+	gorm.io/gorm v1.24.1
 )
 
 require (
-	github.com/StackExchange/wmi v1.2.1 // indirect
 	github.com/VictoriaMetrics/fastcache v1.12.0 // indirect
 	github.com/axieinfinity/bridge-contracts v0.0.0-20220731110242-d273b578b657 // indirect
 	github.com/axieinfinity/ronin-kms-client v0.0.0-20220805072849-960e04981b70 // indirect
@@ -47,7 +46,7 @@ require (
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/karalabe/usb v0.0.2 // indirect
 	github.com/kelseyhightower/envconfig v1.4.0 // indirect
-	github.com/mattn/go-runewidth v0.0.14 // indirect
+	github.com/mattn/go-runewidth v0.0.9 // indirect
 	github.com/mattn/go-sqlite3 v1.14.16 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
@@ -56,7 +55,7 @@ require (
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
 	github.com/peterh/liner v1.2.2 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/prometheus/client_golang v1.13.0 // indirect
+	github.com/prometheus/client_golang v1.14.0 // indirect
 	github.com/prometheus/client_model v0.3.0 // indirect
 	github.com/prometheus/common v0.37.0 // indirect
 	github.com/prometheus/procfs v0.8.0 // indirect
@@ -65,7 +64,7 @@ require (
 	github.com/rjeczalik/notify v0.9.2 // indirect
 	github.com/shirou/gopsutil v3.21.11+incompatible // indirect
 	github.com/sony/gobreaker v0.5.0 // indirect
-	github.com/status-im/keycard-go v0.0.0-20220906070205-e43cb0f06ae9 // indirect
+	github.com/status-im/keycard-go v0.1.0 // indirect
 	github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7 // indirect
 	github.com/tklauser/go-sysconf v0.3.10 // indirect
 	github.com/tklauser/numcpus v0.5.0 // indirect
@@ -74,9 +73,9 @@ require (
 	golang.org/x/crypto v0.1.0 // indirect
 	golang.org/x/net v0.1.0 // indirect
 	golang.org/x/sync v0.1.0 // indirect
-	golang.org/x/sys v0.1.0 // indirect
+	golang.org/x/sys v0.2.0 // indirect
 	golang.org/x/text v0.4.0 // indirect
-	google.golang.org/genproto v0.0.0-20221025140454-527a21cfbd71 // indirect
+	google.golang.org/genproto v0.0.0-20221107162902-2d387536bcdd // indirect
 	google.golang.org/grpc v1.50.1 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 	gopkg.in/natefinch/npipe.v2 v2.0.0-20160621034901-c1b8fa8bdcce // indirect
